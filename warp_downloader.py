@@ -187,7 +187,7 @@ class WarpGeneratorDownloader:
                 f"3 variants per country\n"
                 f" Use in the WG Tunnel Android app\n"
                 f"For usage instructions, read the repository readme:\n"
-                F"https://github.com/Delta-Kronecker/Cloudflare-Warp"
+                F"https://github.com/marynone/collectt"
 
             )
             self.send_to_telegram(WG_Tunnel_zip, WG_Tunnel_caption)
@@ -199,7 +199,7 @@ class WarpGeneratorDownloader:
                 f"1 config per country\n"
                 f" Use in Windows Wiresock program\n"
                 f"For usage instructions, read the repository readme:\n"
-                F"https://github.com/Delta-Kronecker/Cloudflare-Warp"
+                F"https://github.com/marynone/collectt"
 
             )
             self.send_to_telegram(wiresock_zip, WireSock_caption)
@@ -211,7 +211,7 @@ class WarpGeneratorDownloader:
                 f"1 config per country"
                 f" Use in Windows Wiresock program"
                 f"For usage instructions, read the repository readme:"
-                f"https://github.com/Delta-Kronecker/Cloudflare-Warp"
+                f"https://github.com/marynone/collectt"
 
             )
             self.send_to_telegram(wiresock_zip, wiresock_caption)
